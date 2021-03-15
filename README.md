@@ -1,4 +1,4 @@
-# Green Stock Analysis
+# Stock Analysis in VBA
 
 ## Project Overview
 Steve, a financial advisor, would like to provide data-driven stock trading recommendations to his clients. Using VBA and a subset of available stocks, we've programmatically found the total trading volume and monetary returns of those stocks for a given year. As Steve's career as a financial advisor grows, he'll want to evaluate more stocks and will need to use more efficient programs. 
