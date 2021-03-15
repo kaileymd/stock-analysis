@@ -9,6 +9,7 @@ To illustrate why program efficiency is important, let's dive into the two VBA p
 ### Program A: Nested For Loops
 
 Program A uses nested for loops to comb through the stock data and select the values we need to do later calculations:
+
 ![Program A code](https://github.com/kaileymd/stock-analysis/blob/main/Resources/Program%20A%20code.png)
 
 As you can see, the variabe *j* loops through the entire data set to collect values for a given *i*, and it repeats *i* times. In this case, that means *j* needs to loop through the workseet 12 times to collect all of the values it needs to output the stock results.
@@ -16,6 +17,7 @@ As you can see, the variabe *j* loops through the entire data set to collect val
 ### Program B: Single For Loop
 
 Program B uses one for loop to collect the same values:
+
 ![Program B code](https://github.com/kaileymd/stock-analysis/blob/main/Resources/Program%20B%20code.png)
 
 Using the variables tickerVolumes(12), tickerStartingPrices(12) and tickerEndingPrices(12) as arrays and the static variable tickerIndex, the code is able to start at the beginning of the worksheet and collect the values for each stock as it goes, resulting in only one pass through the stock data. This code utilizes arrays to organize the values and assign it to the correct stock as the tickerIndex increases after each stock value collection is complete.
