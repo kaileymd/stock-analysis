@@ -30,7 +30,7 @@ We input the same data into each program, and the output is the same - so what i
 |![Nested_Loops_2017](https://github.com/kaileymd/stock-analysis/blob/main/Resources/Nested_Loops_2017.png)|![VBA_Challenge_2017](https://github.com/kaileymd/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)|
 |![Nested_For_Loops_2018](https://github.com/kaileymd/stock-analysis/blob/main/Resources/Nested_Loops_2018.png)|![VBA_Challenge_2018](https://github.com/kaileymd/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)|
 
-Program B completes its code 1 second faster than Program A, which is ~98% faster.
+When Steve looks at these tables, it's easy to see that 2018 was not a great year for green energy stocks, but he could still recommend ENHP or RUN as well performing stocks year over year. Both programs complete his task, but Program B completes its code 1 second faster than Program A, which is ~98% faster.
 
 ## Conclusions
 
