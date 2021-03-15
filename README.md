@@ -34,11 +34,14 @@ When Steve looks at these tables, it's easy to see that 2018 was not a great yea
 
 ## Conclusions
 
-Program efficiency is crucial to consider in Steve's case, since the time needed to run the program will increase with the amount of stocks he wants to analyze. Code refactoring is a process that looks to improve a program's code, increasing efficiency and readability. In this program's case, increasing this code's efficiency has greatly improved Steve's ability to quickly analyze even more stocks, advancing the speed and quality of Steve's financial recommendations. While readability isn't as important in Steve's case since he is just running the program, improving readability will help him if he decides to expand the capability of this program in the future.
-
-Improving code through code refactoring may seem like an obviously good thing - it's all about **improving** and making it better, after all! But refactoring may not always be the best decision for a company. A company should consider:
+### Is Refactoring the Best Option?
+Code refactoring is a process that looks to improve a program's code, increasing efficiency and readability. Refactoring may seem like an obviously good thing - it's all about **improving** the code and making it better, after all! But refactoring may not always be the best decision for a company. A company should consider:
 - Is the time investment required to refactor the code worth the efficiency output?
   - For example, if it takes 12 hours to refactor code that will only save 30 minutes a month, is it worth it? What if it saves 30 minutes a day?
 - Is this code too outdated and should be replaced? (whether this task is written in another language, irrelevant, etc.)
 
-A program like Program A may be more intuitive for the original coder, or be favored in the event that the specific stocks evaluated change frequently. In Program A, you'd need to update a single array, the index reference in the 'calculations' for loop, and the data output rows - in Program B, you'd need to update the length for 3 arrays, the index reference in the 'calculations' for loop, the index reference in the output for loop, and the data output rows. That makes Program B more difficult to update than Program A. Steve would need to evaluate what program properties are most important to him when deciding which program to adopt.
+
+### Steve's Choice: Program A or B?
+Program efficiency is crucial to consider in Steve's case, since the time needed to run the program will increase with the amount of stocks he wants to analyze. Increasing this code's efficiency has greatly improved Steve's ability to quickly analyze even more stocks, advancing the speed and quality of Steve's financial recommendations. While readability isn't as important in Steve's case since he is just running the program, improving readability will help him if he decides to expand the capability of this program in the future.
+
+What are the benefits of Program A? It may have been more intuitive for the original coder, or be favored in the event that the evaluated stocks change frequently. In Program A, you'd need to update a single array, the index reference in the 'calculations' for loop, and the data output rows - in Program B, you'd need to update the length for 3 arrays, the index reference in the 'calculations' for loop, the index reference in the output for loop, and the data output rows. That makes Program B more difficult to update than Program A. Steve would need to evaluate what program properties are most important to him when deciding which program to adopt.
